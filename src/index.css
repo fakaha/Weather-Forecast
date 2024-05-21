@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #080e30;
+  color: #fff;
+}
+
+h1{
+  text-align: center;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 10px 30px;
+}
+
+#dataHoursBantul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+#dataHoursSleman{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+#dataHoursYogyakarta{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  #dataHoursBantul{
+    justify-content: center;
+  }
+
+  #dataHoursSleman{
+    justify-content: center;
+  }
+
+  #dataHoursYogyakarta{
+    justify-content: center;
+  }
+}
